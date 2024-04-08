@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #a9b6a6; 
+}
+
+  h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header with background image */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('header-bg.png') no-repeat center center; /* Replace with the path to your header_bg image */
+    background-size: cover;
+    padding: 10px 20px;
+  }
+  
+  .logo-image {
+    height: 120px; /* Adjust as per your logo's aspect ratio */
+  }
+  
+  nav ul {
+    display: flex;
+    margin-left: auto; /* Push the navigation to the right */
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #977c66;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #acd9b2; /* Soft green for hover effect */
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-container p {
+    font-size: 14px; /* Smaller text size */
+  }
+  
+  .footer-container ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 14px; /* Adjusted text size */
+  }
+  
