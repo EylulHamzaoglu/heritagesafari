@@ -17,7 +17,6 @@ The use of a database allows booking information to be securely stored, easily q
    - Description
    - Event Start and End Date (if it is an event)
 
-3. **User Table:** If user accounts are to be created, this table contains user information. Without user accounts, this table may not be needed.
 
 ### Database Operations
 - Add Reservation:** When users make a reservation for a museum or event, this information is added to the reservation table.
