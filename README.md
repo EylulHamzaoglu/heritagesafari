@@ -32,7 +32,8 @@
 
 ## Approach and Methodology
 
-Adopting an Agile methodology, we focus on iterative development, delivering a minimum viable product swiftly, and refining based on feedback.
+Scrum Methodology: The project will be managed based on the Scrum methodology and will progress through continuous development and iterations.
+Scrum methodology offers a highly effective approach, especially for projects that require teamwork and continuous iteration. The project will be carried out as a team and Scrum methodology will be used as the project will need periodic review and rapid adaptation. Scrum allows the project to be managed in a more flexible and dynamic way, so we can quickly adapt to changing requirements and priorities.
 
 ## Project Plan and Timeline
 
