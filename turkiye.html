@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Safari</title>
+    <link rel="stylesheet" href="styles/turkiye-style.css">
+    <link rel="icon" type="image/png" href="items/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="scripts/turkiye-script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="items/logo.png" alt="Heritage Safari Logo" class="logo-image">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="calendar.html">Events Calendar</a></li>
+                    <li><a href="turkiye.html">Turkiye</a></li>
+                    <li><a href="france.html">France</a></li>
+                    <li><a href="italy.html">Italy</a></li>
+                    <li><a href="booking.html">Create Booking</a></li>
+                    <li><a href="contact.html">About/Contact/FAQ</a></li>
+                    <li><a href="sign.html">Sign-In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content-wrapper">
+        <div class="header-content">
+            <h1>Museums in Turkey</h1>
+            <p>Turkey's museums showcase its rich historical and cultural heritage, with origins dating back to the Ottoman Empire and the establishment of the Republic. The first museum, "Müze-i Hümayun" (Imperial Museum), was established in 1846 in Istanbul's Hagia Irene Church. Museums across Turkey display artifacts from archaeological excavations and cultural objects from various periods. Notable museums include Topkapi Palace, Hagia Sophia, Antalya Museum, and the Museum of Anatolian Civilizations in Ankara, attracting millions of visitors annually.</p> 
+
+            
+           
+            
+                
+            <button class="gallery-btn" onclick="toggleGallery()">Open Gallery</button>
+            <div class="gallery-container" id="galleryContainer">
+                <img src="images/hierapolis.jpeg" alt="Gallery Image 1" class="gallery-image">
+                <img src="images/efes.jpeg" alt="Gallery Image 2" class="gallery-image">
+                <img src="images/adana.jpeg" alt="Gallery Image 3" class="gallery-image">
+                <img src="images/antalya.jpeg" alt="Gallery Image 3" class="gallery-image">
+                <img src="images/ayasofya.jpeg" alt="Gallery Image 3" class="gallery-image">
+                <img src="images/istar.jpeg" alt="Gallery Image 3" class="gallery-image">
+            </div>
+        </div>
+        <div class="featured-exhibits">
+            <h2>Exploring the Treasures of France's Museums</h2>
+            <p>Turkey's museums house important artifacts reflecting its rich historical and cultural heritage. Discover the splendor of the Ottoman Empire at Topkapı Sarayı and a wide range of artifacts from the Hittites to the Roman Empire at the Anadolu Medeniyetleri Müzesi. At the Zeugma Mozaik Müzesi, you can see the artistic and cultural richness of ancient mosaics.</p>
+            <button class="video-btn" onclick="toggleVideo()">Watch Video</button>
+            <div class="video-container" id="videoContainer">
+                <video width="400" height="350" controls>
+                    <source src="videos/turkeyvideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="museums" id="museums-section">
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <img src="items/logo.png" alt="Heritage Safari Logo" class="logo-image">
+            <p>&copy; 2024 Heritage Safari. All rights reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Use</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

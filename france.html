@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Safari</title>
+    <link rel="stylesheet" href="styles/france-style.css">
+    <link rel="icon" type="image/png" href="items/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="scripts/france-script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="items/logo.png" alt="Heritage Safari Logo" class="logo-image">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="calendar.html">Events Calendar</a></li>
+                    <li><a href="turkiye.html">Turkiye</a></li>
+                    <li><a href="france.html">France</a></li>
+                    <li><a href="italy.html">Italy</a></li>
+                    <li><a href="booking.html">Create Booking</a></li>
+                    <li><a href="contact.html">About/Contact/FAQ</a></li>
+                    <li><a href="sign.html">Sign-In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content-wrapper">
+        <div class="header-content">
+            <h1>Museums in France</h1>
+            <p>France's museums highlight its rich historical and cultural heritage, with origins dating back to the medieval period and expanding significantly during the Renaissance. The first public museum, the Louvre, was established in 1793 in Paris. Museums across France display artifacts from various historical periods, including prehistoric, classical, medieval, and modern eras. Notable museums include the Musée d'Orsay, Centre Pompidou, and Musée de l'Armée. These institutions attract millions of visitors annually, showcasing a wide range of artifacts, from ancient relics to contemporary art.</p> 
+
+            
+           
+            
+                
+            <button class="gallery-btn" onclick="toggleGallery()">Open Gallery</button>
+            <div class="gallery-container" id="galleryContainer">
+                <img src="images/louvre3.jpeg" alt="Gallery Image 1" class="gallery-image">
+                <img src="images/bayeux2.png" alt="Gallery Image 2" class="gallery-image">
+                <img src="images/monet.jpeg" alt="Gallery Image 3" class="gallery-image">
+                <img src="images/orsay3.jpeg" alt="Gallery Image 3" class="gallery-image">
+                <img src="images/orsay2.jpeg" alt="Gallery Image 3" class="gallery-image">
+            </div>
+        </div>
+        <div class="featured-exhibits">
+            <h2>Exploring the Treasures of France's Museums</h2>
+            <p>France's museums house important artifacts reflecting its rich historical and cultural heritage. Discover the splendor of French art at the Louvre, showcasing masterpieces from the Renaissance to modern times. At the Musée d'Orsay, explore a wide range of 19th-century artworks, including pieces by Monet, Van Gogh, and Degas. At the Musée de la Tapisserie de Bayeux, you can see the artistic and cultural richness of the famous Bayeux Tapestry, depicting the Norman Conquest of England.</p>
+            <button class="video-btn" onclick="toggleVideo()">Watch Video</button>
+            <div class="video-container" id="videoContainer">
+                <video width="500" height="350" controls>
+                    <source src="videos/francevid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="museums" id="museums-section">
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <img src="items/logo.png" alt="Heritage Safari Logo" class="logo-image">
+            <p>&copy; 2024 Heritage Safari. All rights reserved.</p>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Use</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
