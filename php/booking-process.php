@@ -17,14 +17,16 @@ $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-$message = $_POST['message'];
+$booking_date = $_POST['booking_date'];
+$number_of_people = $_POST['number_of_people'];
+$special_requests = $_POST['special_requests'];
 
 // Veritabanına ekleme sorgusu
-$sql = "INSERT INTO contacts (first_name, last_name, email, phone, message)
-VALUES ('$first_name', '$last_name', '$email', '$phone', '$message')";
+$sql = "INSERT INTO bookings (first_name, last_name, email, phone, booking_date, number_of_people, special_requests)
+VALUES ('$first_name', '$last_name', '$email', '$phone', '$booking_date', '$number_of_people', '$special_requests')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Your message has been sent successfully.";
+    echo "New booking created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
