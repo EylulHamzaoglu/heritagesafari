@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url('header-bg.png') no-repeat center center; /* Replace with the path to your header_bg image */
+    background: url('items/header-bg.png') no-repeat center center; /* Replace with the path to your header_bg image */
     background-size: cover;
     padding: 10px 20px;
   }
@@ -81,72 +81,38 @@ body {
     margin: 0 5px;
     font-size: 14px; /* Adjusted text size */
   }
-  /* Calendar Styles */
-.calendar-container {
-  width: 80%;
-  margin: 50px auto;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-}
 
+  #calendar {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
 .calendar-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #977c66;
+    color: #fff;
+    font-size: 1.5em; /* Başlık boyutu büyütüldü */
 }
-
-.calendar-header .month-year {
-  font-size: 1.5em;
-}
-
-.calendar-header .prev,
-.calendar-header .next {
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 1.5em;
-  cursor: pointer;
-}
-
 .calendar-body {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-gap: 1px;
-  background-color: #ddd;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background-color: #977c66;
 }
-
-.calendar-body .day {
-  background-color: #f4f4f4;
-  text-align: center;
-  padding: 10px 0;
-  font-weight: bold;
+.calendar-day {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc; /* Günlerin altına çizgi eklendi */
 }
-
-.calendar-body .date {
-  background-color: #fff;
-  text-align: right;
-  padding: 10px;
-  min-height: 80px;
-  position: relative;
+.calendar-day.event {
+    background-color: #acd9b2;
 }
-
-.calendar-body .date.event {
-  background-color: #e1f5fe;
-}
-
-.calendar-body .date.event::after {
-  content: attr(data-event);
-  display: block;
-  font-size: 0.8em;
-  color: #0277bd;
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-}
-

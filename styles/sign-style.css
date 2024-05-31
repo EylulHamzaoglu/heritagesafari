@@ -16,7 +16,7 @@ body {
 
 header {
     width: 100%;
-    background: url('header-bg.png') no-repeat center center;
+    background: url('items/header-bg.png') no-repeat center center;
     background-size: cover;
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
