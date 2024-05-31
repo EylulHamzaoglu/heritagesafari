@@ -1,16 +1,16 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
+document.getElementById('booking-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Sayfanın yenilenmesini önler
 
     var formData = new FormData(this);
 
-    fetch('process_contact.php', {
+    fetch('process_booking.php', {
         method: 'POST',
         body: formData
     })
     .then(response => response.text())
     .then(data => {
         alert(data);
-        document.getElementById('contact-form').reset(); // Formu temizler
+        document.getElementById('booking-form').reset(); // Formu temizler
     })
     .catch(error => {
         console.error('Error:', error);
